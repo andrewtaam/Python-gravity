@@ -1,7 +1,7 @@
-/ Oct-12-2018
+GRAVITY=9.8
 
 def calcFallTime(t, v, h):
-    h=-16*t*t+v*t+h
+    h=GRAVITY/2*t*t+v*t+h
     return h
 
 
